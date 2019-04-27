@@ -1,0 +1,37 @@
+
+
+.repo-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+        box-shadow: 1px 1px 11px #ccc;
+        width: 800px;  
+    padding: 25px;
+    margin: 15px 0px;
+}
+
+.repo-image-holder > img{
+    width: 150px;
+}
+.repo-text-holder{
+    padding: 0px 25px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+.repo-text-holder h3{
+    margin-top: 0px;
+}
+.repo-info
+{
+    display: flex;
+        align-items: center;
+}
+.number-data
+{
+    padding: 15px;
+    background: #efefef;
+    border-radius: 3px;
+    margin-right: 5px;  
+}
